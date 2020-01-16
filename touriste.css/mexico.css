@@ -1,0 +1,42 @@
+div#colonne
+{
+	float: right;
+	width: 200px;
+	height: 1000px;
+	background: lightblue;
+	border-style: solid;
+	border-color: lightblue;
+	border-width: 10px;
+	text-align: center;
+}
+
+div#centre 
+{
+	overflow: hidden;
+	background: khaki;
+	border-style: solid;
+	border-color: khaki;
+	border-width: 10px;
+	height: 1000px;
+	text-align: left;
+}
+
+div#banner 
+{
+	float: top;
+	overflow: hidden;
+	background: turquoise;
+	height: 60px;
+	border-style: solid;
+	border-color: turquoise;
+	border-width: 10px;
+	text-align: left;
+}
+
+div#flagbox
+{
+	float: right;
+	width: 200px;
+	height: 100px;
+	border-width: 1px;
+}
