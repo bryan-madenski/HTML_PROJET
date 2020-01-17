@@ -8,6 +8,16 @@ header {
     border-radius: 25px 25px 25px 25px;
 }
 
+.title {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: rgb(161, 79, 194);
+    text-shadow: 2px 2px 3px darkblue, 3px 3px 5px turquoise;
+}
+
 p {
     padding: 20px;
 }
@@ -34,21 +44,12 @@ p {
 }
 
 #container {
+    background-color: whitesmoke;
     margin: auto;
     box-shadow: 5px 5px 8px rgb(219, 235, 83), 10px 10px 8px rgba(233, 129, 59, 0.938), 15px 15px 8px rgba(212, 64, 138, 0.938);
     width: 75%;
     border: 3px gold solid;
     position: relative;
-}
-
-#Title {
-    font-size: 35px;
-    float: top 20px right auto left auto;
-}
-
-#Subtitle {
-    font-size: 1àpx;
-    text-align: center;
 }
 
 #menu-demo2,
@@ -177,4 +178,28 @@ p {
     width: 15px;
     height: 10px;
     padding-left: 2px;
+}
+
+body {
+    background-color: rgb(188, 231, 231);
+}
+
+footer {
+    background-image: url(../touriste.img/AdS.jpg);
+    height: 5em;
+    background-repeat: no-repeat;
+    background-size: unset;
+    display: flex;
+    background-position: center;
+    align-content: center;
+}
+
+.pied {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: black;
+    text-shadow: 3px 3px 5px whitesmoke;
+    font-size: 2em;
 }

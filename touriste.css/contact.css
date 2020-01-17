@@ -1,11 +1,21 @@
 header {
-    background-image: url(../touriste.img/mexicoPanorama.jpeg);
+    background-image: url(../touriste.img/AdS.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #logo {
     border-radius: 25px 25px 25px 25px;
+}
+
+.title {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: rgb(161, 79, 194);
+    text-shadow: 2px 2px 3px darkblue, 3px 3px 5px turquoise;
 }
 
 #menu-demo2,
@@ -136,43 +146,8 @@ header {
     padding-left: 2px;
 }
 
-div#colonne {
-    float: right;
-    width: 200px;
-    height: 1000px;
-    background: lightblue;
-    border-style: solid;
-    border-color: lightblue;
-    border-width: 10px;
-    text-align: center;
-}
-
-div#centre {
-    overflow: hidden;
-    background: khaki;
-    border-style: solid;
-    border-color: khaki;
-    border-width: 10px;
-    height: 1000px;
-    text-align: left;
-}
-
-div#banner {
-    float: top;
-    overflow: hidden;
-    background: turquoise;
-    height: 60px;
-    border-style: solid;
-    border-color: turquoise;
-    border-width: 10px;
-    text-align: left;
-}
-
-div#flagbox {
-    float: right;
-    width: 200px;
-    height: 120px;
-    border-width: 1px;
+body {
+    background-color: rgb(188, 231, 231);
 }
 
 footer {

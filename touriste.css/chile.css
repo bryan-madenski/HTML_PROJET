@@ -148,3 +148,23 @@ header {
     height: 10px;
     padding-left: 2px;
 }
+
+footer {
+    background-image: url(../touriste.img/AdS.jpg);
+    height: 5em;
+    background-repeat: no-repeat;
+    background-size: unset;
+    display: flex;
+    background-position: center;
+    align-content: center;
+}
+
+.pied {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: black;
+    text-shadow: 3px 3px 5px whitesmoke;
+    font-size: 2em;
+}
