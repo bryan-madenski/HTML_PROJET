@@ -1,5 +1,5 @@
 header {
-    background-image: url(../touriste.img/chilepanorama.jpg);
+    background-image: url(../touriste.img/AdS.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -8,17 +8,47 @@ header {
     border-radius: 25px 25px 25px 25px;
 }
 
-#principale {
-    background-color: blanchedalmond;
+p {
+    padding: 20px;
 }
 
-.presentation {
-    display: inline-block;
-    float: left;
+.presentationImg {
+    height: 100%;
+    float: inline-end;
 }
 
-.chi {
-    width: 30%
+.imgContainer {
+    height: 300px;
+    position: relative;
+    color: white;
+    display: inline-flex;
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(73, 193, 230), 4px 4px 4px rgb(20, 182, 101), 6px 6px 4px rgb(226, 195, 58)
+}
+
+#container {
+    margin: auto;
+    box-shadow: 5px 5px 8px rgb(219, 235, 83), 10px 10px 8px rgba(233, 129, 59, 0.938), 15px 15px 8px rgba(212, 64, 138, 0.938);
+    width: 75%;
+    border: 3px gold solid;
+    position: relative;
+}
+
+#Title {
+    font-size: 35px;
+    float: top 20px right auto left auto;
+}
+
+#Subtitle {
+    font-size: 1àpx;
+    text-align: center;
 }
 
 #menu-demo2,
